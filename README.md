@@ -1,0 +1,1 @@
+This repository demonstrates a common Groovy error involving premature loop termination in the eachWithIndex method.  The 'bug.groovy' file contains code that incorrectly uses 'return' within the closure, resulting in the loop ending prematurely. The solution ('bugSolution.groovy') shows how to properly handle this situation using 'continue' or a more controlled loop structure.
